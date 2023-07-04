@@ -1,11 +1,10 @@
+@import "vars.scss";
 
-*{
-    margin: 0%;
-    padding: 0px;
-    box-sizing: border-box;
-}
+@import "basic.scss";
+
+@import "header.scss";
 
 
-h1{
-    font-family: 'Slabo 27px', serif;
-}
+
+
+

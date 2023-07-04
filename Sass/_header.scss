@@ -1,0 +1,20 @@
+header {
+    background-color: $principalcolor;
+    
+    .logo__unpopular {
+        text-align: left;
+
+        button {
+            background: none;
+            border: 0px;
+            box-sizing: 80px;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: $titlefont;
+            color: white;
+            width: 300px;
+        }
+    }
+}

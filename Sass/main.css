@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
-h1 {
-  font-family: "Slabo 27px", serif;
+header {
+  background-color: #443730;
+}
+header .logo__unpopular {
+  text-align: left;
+}
+header .logo__unpopular button {
+  background: none;
+  border: 0px;
+  box-sizing: 80px;
+}
+header .logo__unpopular a {
+  text-decoration: none;
+  font-family: "Belanosima", sans-serif;
+  color: white;
+  width: 300px;
 }/*# sourceMappingURL=main.css.map */
