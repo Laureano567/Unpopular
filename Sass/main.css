@@ -8,16 +8,44 @@ header {
   background-color: #443730;
 }
 header .logo__unpopular {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 header .logo__unpopular button {
-  background: none;
+  background-color: transparent;
   border: 0px;
-  box-sizing: 80px;
+  border-radius: none;
+  justify-content: left;
+  padding-top: 10px;
+  padding-bottom: -10px;
 }
-header .logo__unpopular a {
+header .logo__unpopular button a {
   text-decoration: none;
-  font-family: "Belanosima", sans-serif;
+  font-family: "Lobster", cursive;
+  text-align: left;
   color: white;
-  width: 300px;
+  font-size: 45px;
+}
+header .nav__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 400px;
+}
+header .nav__container button {
+  background-color: transparent;
+  border: 0px;
+  border-radius: none;
+  padding: 0;
+  transition: transform 0.3s;
+}
+header .nav__container button:hover {
+  transform: scale(1.4);
+}
+header .nav__container a {
+  text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 27px;
 }/*# sourceMappingURL=main.css.map */
