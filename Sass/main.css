@@ -48,4 +48,142 @@ header .nav__container a {
   text-align: center;
   color: white;
   font-size: 27px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+footer .footer__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+footer .footer__content h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer__mail h4,
+.footer__media h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer__mail p {
+  margin: 0;
+}
+
+.social-media-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media-links li {
+  margin-bottom: 5px;
+}
+
+.social-media-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer__bottom p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.week__news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.week__news h1 {
+  display: flex;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Belanosima", sans-serif;
+  text-decoration: underline;
+}
+
+.videos__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 450px;
+}
+.videos__container p {
+  font-size: 25px;
+  font-family: "PT Sans", sans-serif;
+  padding-top: 32px;
+}
+.videos__container .video-1 {
+  grid-area: 1/1/2/2;
+  justify-self: end;
+  padding-left: 190px;
+}
+.videos__container .video-2 {
+  grid-area: 1/2/2/3;
+  justify-self: start;
+}
+.videos__container .video-2 p {
+  padding-right: 140px;
+}
+.videos__container .card p {
+  text-align: center;
+}
+
+.grid__news {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  gap: 20px;
+}
+.grid__news .grid__article-1 {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  padding-left: 60px;
+}
+.grid__news .grid__article-1 img {
+  height: 1000px;
+  width: 600px;
+}
+.grid__news .grid__article-3 {
+  padding-right: 3px;
+}
+.grid__news .grid__article-5 {
+  padding-right: 3px;
+}
+
+.popup__festivals {
+  background-color: #621708;
+}
+.popup__festivals div {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.popup__festivals div button {
+  background-color: transparent;
+  border-radius: 0px;
+  border: 0px;
+}
+.popup__festivals div button a {
+  text-decoration: underline;
+  color: #ECEBE4;
+  justify-content: center;
+  font-size: 60px;
+  font-family: "Belanosima", sans-serif;
 }/*# sourceMappingURL=main.css.map */

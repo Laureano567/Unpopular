@@ -1,0 +1,102 @@
+.week__news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+    h1 {
+        display: flex;
+        text-align: center;
+        font-size: 45px;
+        font-family: $titlefont;
+        text-decoration: underline;
+    }
+}
+
+.videos__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 450px;
+
+    p {
+        font-size: 25px;
+        font-family: $bodyfont;
+        padding-top: 32px;
+    }
+
+    .video-1 {
+        grid-area: 1 / 1 / 2 / 2;
+        justify-self: end;
+        padding-left: 190px;
+    }
+
+    .video-2 {
+        grid-area: 1 / 2 / 2 / 3;
+        justify-self: start;
+
+        p {
+            padding-right: 140px;
+        }
+    }
+
+    .card p {
+        text-align: center;
+    }
+
+}
+
+.grid__news {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 20px;
+
+    .grid__article-1 {
+        grid-row: 1/3;
+        grid-column: 1/2;
+        padding-left: 60px;
+
+        img {
+            height: 1000px;
+            width: 600px;
+        }
+    }
+
+    .grid__article-3 {
+        padding-right: 3px;
+    }
+
+    .grid__article-5 {
+        padding-right: 3px;
+    }
+}
+
+.popup__festivals {
+    background-color:#621708;
+
+    div {
+        display: flex;
+        justify-content: center;
+        padding-top: 45px;
+        padding-bottom: 45px;
+
+
+        button {
+            background-color: transparent;
+            border-radius: 0px;
+            border: 0px;
+
+            a {
+                text-decoration: underline;
+                color:#ECEBE4;
+                justify-content: center;
+                font-size: 60px;
+                font-family: $titlefont;
+                          
+       
+            }
+        }
+    }
+}
