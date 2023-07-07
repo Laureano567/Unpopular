@@ -183,4 +183,19 @@ footer .footer__content h4 {
   justify-content: center;
   font-size: 60px;
   font-family: "Belanosima", sans-serif;
+}
+
+.container-about-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+}
+.container-about-us .container-about-us {
+  width: 30%;
+}
+.container-about-us .container-about-us img {
+  width: 30%;
 }/*# sourceMappingURL=main.css.map */
