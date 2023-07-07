@@ -82,12 +82,10 @@ footer .footer__content h4 {
   padding: 0;
   margin: 0;
 }
-
 .social-media-links li {
   margin-bottom: 5px;
 }
-
-.social-media-links li a {
+.social-media-links a {
   color: #fff;
   text-decoration: none;
 }
@@ -96,7 +94,6 @@ footer .footer__content h4 {
   margin-top: 20px;
   text-align: center;
 }
-
 .footer__bottom p {
   font-size: 14px;
   margin: 0;
