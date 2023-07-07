@@ -1,6 +1,6 @@
 * {
-  margin: 0%;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -48,4 +48,19 @@ header .nav__container a {
   text-align: center;
   color: white;
   font-size: 27px;
+}
+
+.container-about-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+}
+.container-about-us .container-about-us {
+  width: 30%;
+}
+.container-about-us .container-about-us img {
+  width: 30%;
 }/*# sourceMappingURL=main.css.map */
